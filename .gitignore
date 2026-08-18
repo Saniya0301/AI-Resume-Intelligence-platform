@@ -1,5 +1,17 @@
-.venv/
-.idea/
+# Virtual environment
+venv/
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Environment / secrets
 .env
+.streamlit/secrets.toml
+
+# Streamlit
+.streamlit/
+
+# AI agent files
+.agents/
