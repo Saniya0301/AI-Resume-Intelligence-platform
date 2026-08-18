@@ -1,207 +1,409 @@
-# AI Resume Intelligence Platform
+# 🤖 AI Resume Intelligence Platform
 
-## Live Demo
+An AI-powered Resume Intelligence Platform that analyzes resumes against target job descriptions and provides intelligent insights to improve job-readiness.
 
-https://resume-intelligence-platform.streamlit.app
+The application combines resume parsing, ATS-style keyword analysis, semantic matching, AI-powered recommendations, and interview preparation to help candidates understand how well their resume aligns with a specific role.
 
-## GitHub Repository
-
-https://github.com/harikrupa-ai/ai-resume-intelligence-platform
-
----
-
-## Overview
-
-AI Resume Intelligence Platform is an AI-powered application that analyzes resumes against job descriptions using semantic search and ATS keyword matching.
-
-The platform helps candidates understand how well their resume aligns with a target role by generating semantic match scores, ATS keyword scores, missing skill analysis, resume improvement suggestions, and interview preparation questions.
-
-This project demonstrates practical applications of Natural Language Processing (NLP), Sentence Transformers, semantic similarity search, and AI-driven recommendation systems.
+🌐 **Live Demo:**  
+https://ai-resume-intelligence-platform-55.streamlit.app/
 
 ---
 
-## Features
+## 📌 Overview
 
-### Resume Analysis
+The **AI Resume Intelligence Platform** is a Generative AI-powered application designed to help job seekers analyze and optimize their resumes for specific job opportunities.
 
-* Upload resume PDF files
-* Extract resume text automatically
-* Process and analyze candidate information
+Users can upload their resume, provide a target job description, and receive an intelligent analysis including:
 
-### Semantic Matching
+- Resume-job match analysis
+- ATS keyword analysis
+- Missing skills and keywords
+- Resume strengths and weaknesses
+- AI-powered improvement suggestions
+- Resume optimization recommendations
+- Interview preparation questions
+- Candidate readiness insights
 
-* Generate embeddings using Sentence Transformers
-* Compare resumes with job descriptions
-* Calculate semantic similarity scores
-
-### ATS Keyword Analysis
-
-* Extract keywords from job descriptions
-* Identify matching keywords
-* Detect missing skills and technologies
-* Generate ATS keyword score
-
-### Resume Optimization
-
-* Resume improvement recommendations
-* Missing keyword suggestions
-* Resume bullet point generation
-
-### Interview Preparation
-
-* Technical interview questions
-* Project-based interview questions
-* Behavioral interview questions
-
-### Candidate Evaluation
-
-* Hiring recommendations
-* Resume-job fit assessment
-* Candidate readiness insights
+The project demonstrates the practical application of **Generative AI, Natural Language Processing, resume intelligence, semantic analysis, and AI-driven recommendation systems**.
 
 ---
 
-## Technology Stack
+## 🚀 Live Demo
+
+### 🌐 Try the Application
+
+**https://ai-resume-intelligence-platform-55.streamlit.app/**
+
+The application is deployed using **Streamlit Community Cloud** and can be accessed directly from a browser.
+
+---
+
+## ✨ Features
+
+### 📄 Resume Upload & Analysis
+
+- Upload resume PDF files
+- Automatically extract resume text
+- Process candidate information
+- Analyze resume content using AI
+- Identify important skills, technologies, and experience
+
+---
+
+### 🎯 Resume & Job Description Analysis
+
+Users can provide a target job description and compare it with their resume.
+
+The system analyzes:
+
+- Relevant skills
+- Technologies
+- Experience
+- Keywords
+- Role requirements
+- Overall alignment
+
+This helps candidates understand whether their resume is suitable for a particular job.
+
+---
+
+### 📊 ATS Keyword Analysis
+
+The platform performs ATS-style keyword analysis to identify how well the resume matches the target job description.
+
+It identifies:
+
+- Matching keywords
+- Missing keywords
+- Important technical skills
+- Relevant tools and technologies
+- Job-specific terminology
+
+The analysis helps candidates improve their resumes for Applicant Tracking Systems (ATS).
+
+---
+
+### 🧠 AI-Powered Resume Intelligence
+
+Google Gemini is used to generate intelligent insights from the resume and job description.
+
+The AI can provide:
+
+- Resume strengths
+- Resume weaknesses
+- Missing skills
+- Improvement suggestions
+- Optimization recommendations
+- Candidate readiness insights
+
+---
+
+### ✍️ Resume Improvement Suggestions
+
+The platform provides actionable recommendations to improve a resume.
+
+Examples include:
+
+- Improving resume bullet points
+- Adding relevant keywords
+- Highlighting important skills
+- Improving descriptions of projects
+- Making experience more relevant to the target role
+- Removing unnecessary information
+
+---
+
+### 💼 Candidate Evaluation
+
+The system evaluates the overall alignment between a candidate's resume and a target job.
+
+It can provide insights into:
+
+- Resume-job fit
+- Skill alignment
+- Missing requirements
+- Candidate strengths
+- Areas requiring improvement
+
+---
+
+### 🎤 Interview Preparation
+
+The platform can generate interview preparation questions based on the candidate's resume and target role.
+
+Question categories include:
+
+- Technical questions
+- Project-based questions
+- Resume-based questions
+- Behavioral questions
+- Role-specific questions
+
+This allows candidates to prepare for interviews using their own resume and target job description.
+
+---
+
+## 🛠️ Technology Stack
 
 ### Programming Language
 
-* Python
+- Python
 
-### Frontend
+### Frontend / Application Framework
 
-* Streamlit
+- Streamlit
 
-### AI & Machine Learning
+### Generative AI
 
-* Sentence Transformers
-* Semantic Search
-* NLP Techniques
+- Google Gemini
+- Google GenAI SDK
+
+### Natural Language Processing
+
+- NLP
+- Text Processing
+- Keyword Matching
+- Semantic Analysis
+
+### Resume Processing
+
+- PDF Text Extraction
+- PyPDF
 
 ### Data Processing
 
-* PyPDF
-* Scikit-learn
+- Python
+- Pandas
+- Scikit-learn
 
-### Vector Search
+### Development Tools
 
-* FAISS
-
-### Version Control
-
-* Git
-* GitHub
+- Git
+- GitHub
+- VS Code
 
 ### Deployment
 
-* Streamlit Community Cloud
+- Streamlit Community Cloud
 
 ---
 
-## System Architecture
+## 🏗️ System Architecture
 
-1. User uploads a resume PDF
-2. User pastes a target job description
-3. Resume text is extracted from PDF
-4. Job description is processed
-5. Sentence Transformer generates embeddings
-6. Semantic similarity score is calculated
-7. ATS keywords are extracted and compared
-8. Missing skills are identified
-9. Resume recommendations are generated
-10. Interview questions are generated
-11. Results are displayed through Streamlit dashboard
+The application follows the following workflow:
 
----
+```text
+                ┌─────────────────────┐
+                │       User          │
+                └──────────┬──────────┘
+                           │
+                           ▼
+                ┌─────────────────────┐
+                │   Upload Resume     │
+                │       (PDF)         │
+                └──────────┬──────────┘
+                           │
+                           ▼
+                ┌─────────────────────┐
+                │ Extract Resume Text │
+                └──────────┬──────────┘
+                           │
+                           │
+              ┌────────────┴────────────┐
+              │                         │
+              ▼                         ▼
+   ┌─────────────────────┐   ┌─────────────────────┐
+   │   Resume Analysis   │   │  Job Description    │
+   │                     │   │      Analysis       │
+   └──────────┬──────────┘   └──────────┬──────────┘
+              │                         │
+              └────────────┬────────────┘
+                           ▼
+                ┌─────────────────────┐
+                │ ATS Keyword         │
+                │ Analysis            │
+                └──────────┬──────────┘
+                           │
+                           ▼
+                ┌─────────────────────┐
+                │ AI-Powered Gemini   │
+                │ Analysis            │
+                └──────────┬──────────┘
+                           │
+              ┌────────────┼────────────┐
+              │            │            │
+              ▼            ▼            ▼
+        ┌──────────┐ ┌──────────┐ ┌──────────────┐
+        │ Match    │ │ Missing  │ │ Improvement  │
+        │ Analysis │ │ Skills   │ │ Suggestions  │
+        └──────────┘ └──────────┘ └──────────────┘
+                           │
+                           ▼
+                ┌─────────────────────┐
+                │ Interview           │
+                │ Preparation         │
+                └─────────────────────┘
 
-## Project Screenshots
+🔄 Application Workflow
+User opens the Streamlit application.
+User uploads a resume in PDF format.
+Resume text is extracted automatically.
+User provides a target job description.
+Resume and job description are processed.
+Relevant keywords and skills are identified.
+ATS-style keyword matching is performed.
+Resume-job alignment is analyzed.
+Google Gemini generates AI-powered insights.
+Missing skills and improvement areas are identified.
+Resume optimization recommendations are displayed.
+Interview preparation questions are generated.
+The final analysis is presented through the Streamlit interface.
 
-### Homepage
+#📂 Project Structure
+ai-resume-intelligence-platform/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+└── .gitignore
 
-![Homepage](screenshots/homepage.png)
+⚙️ Installation & Setup
+1. Clone the Repository
 
-### Analysis Dashboard
-
-![Analysis Dashboard](screenshots/analysis-dashboard.png)
-
-### Match Score & ATS Analysis
-
-![Match Score ATS](screenshots/match-score-ats.png)
-
-### Resume Improvement Suggestions
-
-![Resume Suggestions](screenshots/resume-suggestions.png)
-
-### Interview Preparation Dashboard
-
-![Interview Questions](screenshots/interview-questions.png)
-
----
-
-## Installation
-
-Clone the repository:
-
-```bash
 git clone https://github.com/harikrupa-ai/ai-resume-intelligence-platform.git
+
+2. Navigate to the Project
 cd ai-resume-intelligence-platform
-```
 
-Install dependencies:
 
-```bash
+3. Create a Virtual Environment
+python -m venv venv
+
+4. Install Dependencies
 pip install -r requirements.txt
-```
 
-Run the application:
+5. Configure Gemini API Key
 
-```bash
+The application requires a Google Gemini API key.
+
+For local development, configure the Streamlit secret:
+
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
+
+6. Run the Application
 streamlit run main.py
-```
 
----
+🔐 Environment & API Security
 
-## Example Use Cases
+The Gemini API key is stored securely using Streamlit Secrets.
 
-* Resume screening
-* Candidate-job matching
-* ATS optimization
-* Career coaching
-* Interview preparation
-* Recruitment support
+The application accesses the key using:
+st.secrets["GEMINI_API_KEY"]
 
----
+🎓 Skills Demonstrated
 
-## Skills Demonstrated
+This project demonstrates practical experience in:
 
-* Python Development
-* NLP Applications
-* Semantic Search
-* Sentence Embeddings
-* Vector Search Concepts
-* Resume Intelligence Systems
-* Streamlit Application Development
-* AI Product Development
-* Git & GitHub Workflow
-* Cloud Deployment
+Python Development
+Generative AI
+Google Gemini API
+Prompt Engineering
+Natural Language Processing
+Resume Intelligence
+Text Processing
+ATS Keyword Analysis
+Semantic Analysis
+AI Recommendation Systems
+Streamlit Application Development
+API Integration
+Git & GitHub
+Cloud Deployment
+AI Product Development
+📈 Future Enhancements
 
----
+Planned improvements include:
 
-## Future Enhancements
+ Multi-resume comparison
+ Resume ranking system
+ LLM-powered complete resume rewriting
+ Job recommendation system
+ Multiple job description comparison
+ Recruiter dashboard
+ Resume version tracking
+ User authentication
+ Resume history
+ Advanced semantic search
+ RAG-based candidate evaluation
+ Vector database integration
+ Downloadable AI-generated resume reports
+ Resume scoring dashboard with advanced visualizations
+🌟 Project Highlights
+What makes this project different?
 
-* Multi-resume comparison
-* LLM-powered resume rewriting
-* Resume ranking system
-* Vector database integration
-* Multi-job analysis
-* Recruiter dashboard
-* RAG-based candidate evaluation
+Instead of simply extracting keywords from a resume, the platform combines:
 
----
+Resume
+   +
+Job Description
+   ↓
+Resume Parsing
+   ↓
+Keyword Analysis
+   ↓
+ATS Matching
+   ↓
+AI Analysis
+   ↓
+Skill Gap Detection
+   ↓
+Resume Recommendations
+   ↓
+Interview Preparation
 
-## Author
+This creates an end-to-end AI-powered resume intelligence workflow.
 
-Hari Krupa Cheguri
+🔮 Future Vision
 
-Master of Science in Business Analytics
+The long-term goal of the project is to evolve the platform into a complete AI Career Intelligence System capable of helping users throughout the job application process.
 
-AI Engineer | Machine Learning | Generative AI | NLP
+Potential capabilities include:
+
+Resume creation
+Resume optimization
+Job discovery
+Job matching
+Application tracking
+Interview preparation
+Skill gap analysis
+Personalized learning recommendations
+Career recommendations
+👩‍💻 Author
+Saniya Chhabra
+
+B.Tech — Artificial Intelligence & Data Science
+
+Interested in:
+
+Artificial Intelligence
+Data Science
+Machine Learning
+Generative AI
+NLP
+AI Product Development
+🔗 Project Links
+🌐 Live Application
+
+https://ai-resume-intelligence-platform-55.streamlit.app/
+
+💻 GitHub Repository
+
+https://github.com/Saniya0301/AI-Resume-Intelligence-platform
+
+
+⭐ Support
+
+If you find this project interesting, consider giving the repository a ⭐ on GitHub!
+
+📜 License
+
+This project is intended for educational, portfolio, and demonstration purposes.
