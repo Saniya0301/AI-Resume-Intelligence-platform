@@ -181,113 +181,47 @@ The platform combines **resume parsing, ATS-style keyword analysis, NLP techniqu
               │   Preparation   │
               └─────────────────┘
 
+🌟 Why This Project?
 
+Traditional resume tools often focus only on formatting or keyword matching.
 
-#🔄 Application Workflow
-User opens the Streamlit application.
-User uploads a resume in PDF format.
-Resume text is extracted automatically.
-User provides a target job description.
-Resume and job description are processed.
-Relevant keywords and skills are identified.
-ATS-style keyword matching is performed.
-Resume-job alignment is analyzed.
-Google Gemini generates AI-powered insights.
-Missing skills and improvement areas are identified.
-Resume optimization recommendations are displayed.
-Interview preparation questions are generated.
-The final analysis is presented through the Streamlit interface.
+This project aims to go further by combining:
 
+Resume Understanding + Job Matching + ATS Analysis + Generative AI + Career Insights
 
-/
-#📂 Project Structure
-ai-resume-intelligence-platform/
-│
-├── main.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-
-⚙️ Installation & Setup
-1. Clone the Repository
-
-git clone https://github.com/harikrupa-ai/ai-resume-intelligence-platform.git
-
-2. Navigate to the Project
-cd ai-resume-intelligence-platform
-
-
-3. Create a Virtual Environment
-python -m venv venv
-
-4. Install Dependencies
-pip install -r requirements.txt
-
-5. Configure Gemini API Key
-
-The application requires a Google Gemini API key.
-
-For local development, configure the Streamlit secret:
-
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
-
-6. Run the Application
-streamlit run main.py
-
-🔐 Environment & API Security
-
-The Gemini API key is stored securely using Streamlit Secrets.
-
-The application accesses the key using:
-st.secrets["GEMINI_API_KEY"]
-
-🎓 Skills Demonstrated
-
-This project demonstrates practical experience in:
-
-Python Development
-Generative AI
-Google Gemini API
-Prompt Engineering
-Natural Language Processing
-Resume Intelligence
-Text Processing
-ATS Keyword Analysis
-Semantic Analysis
-AI Recommendation Systems
-Streamlit Application Development
-API Integration
-Git & GitHub
-Cloud Deployment
-AI Product Development
-
-
+The goal is to turn a static resume into an intelligent career profile.
 
 👩‍💻 Author
+<div align="center">
 Saniya Chhabra
 
 B.Tech — Artificial Intelligence & Data Science
 
 Interested in:
 
-Artificial Intelligence
-Data Science
-Machine Learning
-Generative AI
-NLP
-AI Product Development
+Artificial Intelligence · Data Science · Machine Learning ·
+Generative AI · NLP · AI Product Development
 
+</div>
+🔗 Project Links
+<div align="center">
+🌐 Live Application
 
+🚀 Launch AI Resume Intelligence Platform
 
 💻 GitHub Repository
 
-https://github.com/Saniya0301/AI-Resume-Intelligence-platform
+⭐ View Source Code
+
+</div>
+⭐ Show Your Support
+
+If you found this project interesting or useful:
+
+⭐ Star the repository
+
+🍴 Fork the project
+
+💡 Suggest improvemen
 
 
-⭐ Support
-
-If you find this project interesting, consider giving the repository a ⭐ on GitHub!
-
-📜 License
-
-This project is intended for educational, portfolio, and demonstration purposes.
