@@ -131,61 +131,7 @@ The platform combines **resume parsing, ATS-style keyword analysis, NLP techniqu
 
 ---
 
-# 🧠 How It Works
 
-```text
-                    👤 USER
-                       │
-                       ▼
-              ┌─────────────────┐
-              │  Upload Resume  │
-              │      (PDF)      │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ Resume Text     │
-              │ Extraction      │
-              └────────┬────────┘
-                       │
-                       │
-             ┌─────────┴─────────┐
-             │                   │
-             ▼                   ▼
-     ┌──────────────┐    ┌────────────────┐
-     │   RESUME     │    │ JOB DESCRIPTION│
-     │   ANALYSIS    │    │    ANALYSIS    │
-     └──────┬───────┘    └───────┬────────┘
-            │                    │
-            └──────────┬─────────┘
-                       ▼
-              ┌─────────────────┐
-              │  ATS KEYWORD    │
-              │    ANALYSIS     │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │  GEMINI AI      │
-              │    ANALYSIS     │
-              └────────┬────────┘
-                       │
-        ┌──────────────┼──────────────┐
-        ▼              ▼              ▼
-   🎯 Match       ⚠️ Skill Gap     💡 Suggestions
-     Score          Analysis         & Insights
-        │              │              │
-        └──────────────┼──────────────┘
-                       ▼
-              ┌─────────────────┐
-              │ 🎤 Interview    │
-              │   Preparation   │
-              └─────────────────┘
-
-
-
-
----
 
 <div align="center">
 
