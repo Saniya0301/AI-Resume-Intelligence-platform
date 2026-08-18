@@ -1,248 +1,185 @@
-# 🤖 AI Resume Intelligence Platform
+<div align="center">
 
-An AI-powered Resume Intelligence Platform that analyzes resumes against target job descriptions and provides intelligent insights to improve job-readiness.
+# ☁️ AI Resume Intelligence Platform
 
+### ✨ AI-Powered Resume Analysis • ATS Optimization • Career Intelligence
 
+<p>
+  <a href="https://ai-resume-intelligence-platform-55.streamlit.app/">
+    <img src="https://img.shields.io/badge/🌐%20LIVE%20DEMO-87CEEB?style=for-the-badge&logo=streamlit&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Python-87CEEB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Generative%20AI-87CEEB?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-87CEEB?style=for-the-badge&logo=streamlit&logoColor=white" />
+</p>
 
-🌐 **Live Demo:**  
-https://ai-resume-intelligence-platform-55.streamlit.app/
+<p>
+  <b>Transform your resume into a smarter, job-ready profile.</b>
+</p>
 
----
+<p>
+  Analyze your resume • Match job descriptions • Discover skill gaps •
+  Optimize for ATS • Prepare for interviews
+</p>
 
-## 📌 Overview
+<br>
 
-The **AI Resume Intelligence Platform** is a Generative AI-powered application designed to help job seekers analyze and optimize their resumes for specific job opportunities.
+<a href="https://ai-resume-intelligence-platform-55.streamlit.app/">
+  <strong>🚀 TRY THE LIVE APPLICATION →</strong>
+</a>
 
-Users can upload their resume, provide a target job description, and receive an intelligent analysis including:
-
-- Resume-job match analysis
-- ATS keyword analysis
-- Missing skills and keywords
-- Resume strengths and weaknesses
-- AI-powered improvement suggestions
-- Resume optimization recommendations
-- Interview preparation questions
-- Candidate readiness insights
-
-The project demonstrates the practical application of **Generative AI, Natural Language Processing, resume intelligence, semantic analysis, and AI-driven recommendation systems**.
-
----
-
-## 🚀 Live Demo
-
-### 🌐 Try the Application
-
-**https://ai-resume-intelligence-platform-55.streamlit.app/**
-
-The application is deployed using **Streamlit Community Cloud** and can be accessed directly from a browser.
+</div>
 
 ---
 
-## ✨ Features
+## 🌤️ About The Project
 
-### 📄 Resume Upload & Analysis
+**AI Resume Intelligence Platform** is a Generative AI-powered application designed to help job seekers understand how effectively their resume aligns with a target job description.
 
-- Upload resume PDF files
-- Automatically extract resume text
-- Process candidate information
-- Analyze resume content using AI
-- Identify important skills, technologies, and experience
+Instead of simply reading a resume, the platform performs a structured analysis of the candidate's profile and provides actionable insights to improve their chances of matching a role.
 
----
+### 💡 The idea is simple:
 
-### 🎯 Resume & Job Description Analysis
+> **Your Resume + Your Dream Job → AI-Powered Career Insights**
 
-Users can provide a target job description and compare it with their resume.
-
-The system analyzes:
-
-- Relevant skills
-- Technologies
-- Experience
-- Keywords
-- Role requirements
-- Overall alignment
-
-This helps candidates understand whether their resume is suitable for a particular job.
+The platform combines **resume parsing, ATS-style keyword analysis, NLP techniques, and Generative AI** to create an intelligent resume evaluation workflow.
 
 ---
 
-### 📊 ATS Keyword Analysis
+## ✨ What Can It Do?
 
-The platform performs ATS-style keyword analysis to identify how well the resume matches the target job description.
+<table>
+<tr>
+<td width="50%">
 
-It identifies:
+### 📄 Resume Intelligence
 
-- Matching keywords
-- Missing keywords
-- Important technical skills
-- Relevant tools and technologies
-- Job-specific terminology
+- Upload your resume
+- Extract resume content
+- Identify skills & technologies
+- Analyze candidate experience
+- Understand resume structure
 
-The analysis helps candidates improve their resumes for Applicant Tracking Systems (ATS).
+</td>
 
----
+<td width="50%">
 
-### 🧠 AI-Powered Resume Intelligence
+### 🎯 Job Matching
 
-Google Gemini is used to generate intelligent insights from the resume and job description.
+- Compare resume with a JD
+- Identify relevant skills
+- Detect missing keywords
+- Analyze role alignment
+- Evaluate candidate-job fit
 
-The AI can provide:
+</td>
+</tr>
 
-- Resume strengths
-- Resume weaknesses
-- Missing skills
-- Improvement suggestions
-- Optimization recommendations
-- Candidate readiness insights
+<tr>
+<td>
 
----
+### 📊 ATS Analysis
 
-### ✍️ Resume Improvement Suggestions
+- Keyword matching
+- Missing skill detection
+- Important technology identification
+- ATS-oriented recommendations
+- Job-specific keyword suggestions
 
-The platform provides actionable recommendations to improve a resume.
+</td>
 
-Examples include:
+<td>
 
-- Improving resume bullet points
-- Adding relevant keywords
-- Highlighting important skills
-- Improving descriptions of projects
-- Making experience more relevant to the target role
-- Removing unnecessary information
+### 🧠 Generative AI
 
----
+- AI-powered resume insights
+- Strength & weakness analysis
+- Personalized recommendations
+- Resume improvement suggestions
+- Candidate readiness analysis
 
-### 💼 Candidate Evaluation
+</td>
+</tr>
 
-The system evaluates the overall alignment between a candidate's resume and a target job.
+<tr>
+<td>
 
-It can provide insights into:
+### ✍️ Resume Optimization
 
-- Resume-job fit
-- Skill alignment
-- Missing requirements
-- Candidate strengths
-- Areas requiring improvement
+- Improve resume bullet points
+- Add relevant keywords
+- Highlight important skills
+- Improve job relevance
+- Identify areas for improvement
 
----
+</td>
+
+<td>
 
 ### 🎤 Interview Preparation
-
-The platform can generate interview preparation questions based on the candidate's resume and target role.
-
-Question categories include:
 
 - Technical questions
 - Project-based questions
 - Resume-based questions
 - Behavioral questions
-- Role-specific questions
+- Role-specific preparation
 
-This allows candidates to prepare for interviews using their own resume and target job description.
-
----
-
-## 🛠️ Technology Stack
-
-### Programming Language
-
-- Python
-
-### Frontend / Application Framework
-
-- Streamlit
-
-### Generative AI
-
-- Google Gemini
-- Google GenAI SDK
-
-### Natural Language Processing
-
-- NLP
-- Text Processing
-- Keyword Matching
-- Semantic Analysis
-
-### Resume Processing
-
-- PDF Text Extraction
-- PyPDF
-
-### Data Processing
-
-- Python
-- Pandas
-- Scikit-learn
-
-### Development Tools
-
-- Git
-- GitHub
-- VS Code
-
-### Deployment
-
-- Streamlit Community Cloud
+</td>
+</tr>
+</table>
 
 ---
 
-## 🏗️ System Architecture
-
-The application follows the following workflow:
+# 🧠 How It Works
 
 ```text
-                ┌─────────────────────┐
-                │       User          │
-                └──────────┬──────────┘
-                           │
-                           ▼
-                ┌─────────────────────┐
-                │   Upload Resume     │
-                │       (PDF)         │
-                └──────────┬──────────┘
-                           │
-                           ▼
-                ┌─────────────────────┐
-                │ Extract Resume Text │
-                └──────────┬──────────┘
-                           │
-                           │
-              ┌────────────┴────────────┐
-              │                         │
-              ▼                         ▼
-   ┌─────────────────────┐   ┌─────────────────────┐
-   │   Resume Analysis   │   │  Job Description    │
-   │                     │   │      Analysis       │
-   └──────────┬──────────┘   └──────────┬──────────┘
-              │                         │
-              └────────────┬────────────┘
-                           ▼
-                ┌─────────────────────┐
-                │ ATS Keyword         │
-                │ Analysis            │
-                └──────────┬──────────┘
-                           │
-                           ▼
-                ┌─────────────────────┐
-                │ AI-Powered Gemini   │
-                │ Analysis            │
-                └──────────┬──────────┘
-                           │
-              ┌────────────┼────────────┐
-              │            │            │
-              ▼            ▼            ▼
-        ┌──────────┐ ┌──────────┐ ┌──────────────┐
-        │ Match    │ │ Missing  │ │ Improvement  │
-        │ Analysis │ │ Skills   │ │ Suggestions  │
-        └──────────┘ └──────────┘ └──────────────┘
-                           │
-                           ▼
-                ┌─────────────────────┐
-                │ Interview           │
-                │ Preparation         │
-                └─────────────────────┘
+                    👤 USER
+                       │
+                       ▼
+              ┌─────────────────┐
+              │  Upload Resume  │
+              │      (PDF)      │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ Resume Text     │
+              │ Extraction      │
+              └────────┬────────┘
+                       │
+                       │
+             ┌─────────┴─────────┐
+             │                   │
+             ▼                   ▼
+     ┌──────────────┐    ┌────────────────┐
+     │   RESUME     │    │ JOB DESCRIPTION│
+     │   ANALYSIS    │    │    ANALYSIS    │
+     └──────┬───────┘    └───────┬────────┘
+            │                    │
+            └──────────┬─────────┘
+                       ▼
+              ┌─────────────────┐
+              │  ATS KEYWORD    │
+              │    ANALYSIS     │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │  GEMINI AI      │
+              │    ANALYSIS     │
+              └────────┬────────┘
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+   🎯 Match       ⚠️ Skill Gap     💡 Suggestions
+     Score          Analysis         & Insights
+        │              │              │
+        └──────────────┼──────────────┘
+                       ▼
+              ┌─────────────────┐
+              │ 🎤 Interview    │
+              │   Preparation   │
+              └─────────────────┘
 
 
 
