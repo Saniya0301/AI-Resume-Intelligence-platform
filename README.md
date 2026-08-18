@@ -1,34 +1,35 @@
 <div align="center">
 
-# ☁️ AI Resume Intelligence Platform
+<img src="https://capsule-render.vercel.app/api?type=waving&color=87CEEB&height=180&section=header&text=AI%20Resume%20Intelligence&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Your%20Resume.%20Your%20Career.%20Powered%20by%20AI.&descAlignY=60&descSize=18" width="100%"/>
 
-### ✨ AI-Powered Resume Analysis • ATS Optimization • Career Intelligence
+<br>
 
-<p>
-  <a href="https://ai-resume-intelligence-platform-55.streamlit.app/">
-    <img src="https://img.shields.io/badge/🌐%20LIVE%20DEMO-87CEEB?style=for-the-badge&logo=streamlit&logoColor=white" />
-  </a>
-  <img src="https://img.shields.io/badge/Python-87CEEB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Generative%20AI-87CEEB?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-87CEEB?style=for-the-badge&logo=streamlit&logoColor=white" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3000&pause=800&color=5DADE2&center=true&vCenter=true&width=700&lines=Resume+Analysis+%E2%80%A2+ATS+Optimization;Job+Matching+%E2%80%A2+Skill+Gap+Detection;Generative+AI+%E2%80%A2+Career+Intelligence;Turn+Your+Resume+Into+Your+Career+Advantage+%E2%9C%A8" />
 
-<p>
-  <b>Transform your resume into a smarter, job-ready profile.</b>
-</p>
+<br><br>
+
+<a href="https://ai-resume-intelligence-platform-55.streamlit.app/">
+<img src="https://img.shields.io/badge/☁️%20%20TRY%20THE%20LIVE%20AI%20APP%20%20→-5DADE2?style=for-the-badge&labelColor=2C3E50" />
+</a>
+
+<br><br>
 
 <p>
-  Analyze your resume • Match job descriptions • Discover skill gaps •
-  Optimize for ATS • Prepare for interviews
+An intelligent resume analysis platform that helps you understand,
+<br>
+optimize, and strengthen your resume for your dream role.
 </p>
 
 <br>
 
-<a href="https://ai-resume-intelligence-platform-55.streamlit.app/">
-  <strong>🚀 TRY THE LIVE APPLICATION →</strong>
-</a>
+<img src="https://img.shields.io/badge/Generative%20AI-87CEEB?style=flat-square&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-87CEEB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Streamlit-87CEEB?style=flat-square&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/NLP-87CEEB?style=flat-square&logoColor=white"/>
 
 </div>
+
+<br>
 
 ---
 
@@ -181,47 +182,135 @@ The platform combines **resume parsing, ATS-style keyword analysis, NLP techniqu
               │   Preparation   │
               └─────────────────┘
 
-🌟 Why This Project?
 
-Traditional resume tools often focus only on formatting or keyword matching.
 
-This project aims to go further by combining:
 
-Resume Understanding + Job Matching + ATS Analysis + Generative AI + Career Insights
+---
 
-The goal is to turn a static resume into an intelligent career profile.
-
-👩‍💻 Author
 <div align="center">
-Saniya Chhabra
+
+# ☁️ Why This Project?
+
+<br>
+
+<table>
+<tr>
+<td align="center">
+
+### 📄
+**Understand**
+
+Turn your resume into  
+structured career intelligence.
+
+</td>
+
+<td align="center">
+
+### 🎯
+**Match**
+
+Understand how closely  
+you align with your target role.
+
+</td>
+
+<td align="center">
+
+### 🧠
+**Optimize**
+
+Use AI-powered insights  
+to improve your resume.
+
+</td>
+
+<td align="center">
+
+### 🚀
+**Prepare**
+
+Get personalized  
+interview preparation.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<p>
+<b>Traditional resume tools stop at formatting.</b>
+<br><br>
+This platform goes further by combining
+<br>
+<strong>Resume Understanding + Job Matching + ATS Analysis + Generative AI + Career Intelligence</strong>
+<br><br>
+to transform a static resume into an
+<br>
+<strong>intelligent career profile.</strong>
+</p>
+
+</div>
+
+---
+
+<br>
+
+<div align="center">
+
+## 👩‍💻 Built By
+
+<br>
+
+### <strong>Saniya Chhabra</strong>
 
 B.Tech — Artificial Intelligence & Data Science
 
-Interested in:
+<br>
 
+<sub>
 Artificial Intelligence · Data Science · Machine Learning ·
 Generative AI · NLP · AI Product Development
+</sub>
+
+<br><br>
 
 </div>
-🔗 Project Links
+
+---
+
 <div align="center">
-🌐 Live Application
 
-🚀 Launch AI Resume Intelligence Platform
+## 🚀 Explore The Platform
 
-💻 GitHub Repository
+<br>
 
-⭐ View Source Code
+<a href="https://ai-resume-intelligence-platform-55.streamlit.app/">
+<img src="https://img.shields.io/badge/☁️%20%20OPEN%20LIVE%20APP%20%20→-5DADE2?style=for-the-badge&labelColor=17202A" />
+</a>
+
+<br><br>
+
+<a href="https://github.com/harikrupa-ai/ai-resume-intelligence-platform">
+<img src="https://img.shields.io/badge/⭐%20STAR%20ON%20GITHUB-87CEEB?style=for-the-badge&labelColor=17202A" />
+</a>
 
 </div>
-⭐ Show Your Support
 
-If you found this project interesting or useful:
+<br>
 
-⭐ Star the repository
+---
 
-🍴 Fork the project
+<div align="center">
 
-💡 Suggest improvemen
+### ☁️ AI Resume Intelligence Platform
 
+<i>Turning resumes into intelligent career insights.</i>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=87CEEB&height=100&section=footer" width="100%"/>
+
+</div>
 
