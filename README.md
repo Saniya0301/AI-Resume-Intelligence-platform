@@ -2,7 +2,7 @@
 
 An AI-powered Resume Intelligence Platform that analyzes resumes against target job descriptions and provides intelligent insights to improve job-readiness.
 
-The application combines resume parsing, ATS-style keyword analysis, semantic matching, AI-powered recommendations, and interview preparation to help candidates understand how well their resume aligns with a specific role.
+
 
 🌐 **Live Demo:**  
 https://ai-resume-intelligence-platform-55.streamlit.app/
@@ -244,7 +244,9 @@ The application follows the following workflow:
                 │ Preparation         │
                 └─────────────────────┘
 
-🔄 Application Workflow
+
+
+#🔄 Application Workflow
 User opens the Streamlit application.
 User uploads a resume in PDF format.
 Resume text is extracted automatically.
@@ -259,6 +261,8 @@ Resume optimization recommendations are displayed.
 Interview preparation questions are generated.
 The final analysis is presented through the Streamlit interface.
 
+
+/
 #📂 Project Structure
 ai-resume-intelligence-platform/
 │
@@ -319,64 +323,9 @@ API Integration
 Git & GitHub
 Cloud Deployment
 AI Product Development
-📈 Future Enhancements
 
-Planned improvements include:
 
- Multi-resume comparison
- Resume ranking system
- LLM-powered complete resume rewriting
- Job recommendation system
- Multiple job description comparison
- Recruiter dashboard
- Resume version tracking
- User authentication
- Resume history
- Advanced semantic search
- RAG-based candidate evaluation
- Vector database integration
- Downloadable AI-generated resume reports
- Resume scoring dashboard with advanced visualizations
-🌟 Project Highlights
-What makes this project different?
 
-Instead of simply extracting keywords from a resume, the platform combines:
-
-Resume
-   +
-Job Description
-   ↓
-Resume Parsing
-   ↓
-Keyword Analysis
-   ↓
-ATS Matching
-   ↓
-AI Analysis
-   ↓
-Skill Gap Detection
-   ↓
-Resume Recommendations
-   ↓
-Interview Preparation
-
-This creates an end-to-end AI-powered resume intelligence workflow.
-
-🔮 Future Vision
-
-The long-term goal of the project is to evolve the platform into a complete AI Career Intelligence System capable of helping users throughout the job application process.
-
-Potential capabilities include:
-
-Resume creation
-Resume optimization
-Job discovery
-Job matching
-Application tracking
-Interview preparation
-Skill gap analysis
-Personalized learning recommendations
-Career recommendations
 👩‍💻 Author
 Saniya Chhabra
 
@@ -390,10 +339,8 @@ Machine Learning
 Generative AI
 NLP
 AI Product Development
-🔗 Project Links
-🌐 Live Application
 
-https://ai-resume-intelligence-platform-55.streamlit.app/
+
 
 💻 GitHub Repository
 
